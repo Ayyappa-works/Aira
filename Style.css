@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 42, 42);
+    color:white;
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    h3{
+        margin-top: 10px;
+    }
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand{
+    color: white;
+}
+.heropage{
+    height: 100vh;
+}
+.navbar-nav a{
+    color: white;
+}
+.outside img{
+    width: 80%;
+}
+.active{
+    color: white;
+}
+.faq details{
+    margin: 10px;
+    padding: 5px;
+}
+@media (max-width:600px){
+    .aira img{
+        margin-left: 20vh;
+    }
+    .outside img{
+        padding-top: 20px;
+        margin-left: 10vh;
+    }
+    .navbar-toggler{
+        color: white;
+    }
+    .navbar{
+        height: 50px;
+    }
+}
+@media(min-width:1000px){
+    .outside .out{
+        margin-top: 150px;
+    }
+}
